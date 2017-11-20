@@ -35,7 +35,7 @@
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
         </property>
         <property name="packagesToScan"
-             value="com.prospring4.ch8"/>
+             value="com.prospring4.ch8.hibernateEnvers"/>
         <property name="jpaProperties">
             <props>
                 <prop key="hibernate.dialect">
